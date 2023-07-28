@@ -7,6 +7,7 @@ import Categories from '../components/Categories';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
 import Footer from '../layout/Footer';
+import Product from '../components/Product';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Navbar />
       <Carousel />
       <Categories />
-      <Products />
+      /*add products jsx here,Kumbuka*/
       <Newsletter />
       <Footer />
     </>

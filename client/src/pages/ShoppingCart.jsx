@@ -62,12 +62,12 @@ const ShoppingCart = () => {
           </div>
           <div>
             <StripeCheckout
-              name='HEIN.'
+              name='OSMO.'
               billingAddress
               shippingAddress
-              description={`Your total is ${cart.totalPrice}`}
+              description={`Your total is KSH{cart.totalPrice}`}
               amount={cart.totalPrice * 100}
-              currency='USD'
+              currency='KSH'
               token={onToken}
               stripeKey='pk_test_51LbSFeDby8a9HLcBzbuGETbDJiWZkCbNQx3gSpAfRZIKSrvsKakFGjvkNPTvzuHNNXKDYojDjdk3XhLlTajrQmeZ00JSyq9AOO'
             >
@@ -88,19 +88,19 @@ const ShoppingCart = () => {
               <h1 className='uppercase text-4xl mb-8'>order summary</h1>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>subtotal</span>
-                <span>$ {cart.totalPrice}</span>
+                <span>Ksh {cart.totalPrice}</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>estimated shipping</span>
-                <span>$ 00.00</span>
+                <span>Ksh 00.00</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize'>shipping discount</span>
-                <span>-$ 00.00</span>
+                <span>-Ksh 00.00</span>
               </div>
               <div className='flex justify-between mb-8'>
                 <span className='capitalize font-bold text-2xl'>Total</span>
-                <span className='font-bold text-2xl'>$ {cart.totalPrice}</span>
+                <span className='font-bold text-2xl'>Ksh {cart.totalPrice}</span>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite-scripts start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -25,6 +26,7 @@
     "redux-persist": "^6.0.0",
     "uuid": "^9.0.0"
   },
+  
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

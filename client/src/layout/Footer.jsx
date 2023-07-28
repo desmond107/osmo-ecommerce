@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='p-8 grid gap-x-16 gap-y-4 md:grid-cols-3'>
       <div>
         <h1 className='font-bold text-3xl uppercase mb-4 tracking-wider'>
-          <a href=''>Hein.</a>
+          <a href=''>OSMO.</a>
         </h1>
         <p className='text-justify'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
@@ -55,15 +55,15 @@ const Footer = () => {
         <ul>
           <li>
             <Place className='mr-4' />
-            <span>Cairo, Egypt</span>
+            <span>Nairobi,Kenya</span>
           </li>
           <li>
             <LocalPhone className='mr-4' />
-            <span>+201154251620</span>
+            <span>+254713905761</span>
           </li>
           <li>
             <MailOutline className='mr-4' />
-            <span>contact@hein.com</span>
+            <span>contact@osmo.com</span>
           </li>
         </ul>
       </div>
